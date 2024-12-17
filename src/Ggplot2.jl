@@ -1,4 +1,4 @@
-module ggplot2
+module Ggplot2
 
 import RCall: reval, @R_str, @rput
 
