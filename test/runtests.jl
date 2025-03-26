@@ -1,4 +1,4 @@
-using ggplot2
+using Ggplot2
 using Test
 
 @testset "ggplot2.jl" begin
