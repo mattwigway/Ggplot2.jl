@@ -3,11 +3,11 @@ env:
   # make RCall install R with Conda.jl
   R_HOME: "*"
 on:
-  push:
-    branches:
-      - main
-    tags: ['*']
-  pull_request:
+  # push:
+  #   branches:
+  #     - main
+  #   tags: ['*']
+  # pull_request:
   workflow_dispatch:
 concurrency:
   # Skip intermediate builds: always.
