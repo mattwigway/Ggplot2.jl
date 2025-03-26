@@ -1,7 +1,7 @@
 name = "Ggplot2"
 uuid = "5eb46db9-241e-4516-b2d9-6a99246a435a"
 authors = ["Matt Bhagat-Conway <matt@indicatrix.org> and contributors"]
-version = "1.0.0-DEV"
+version = "0.0.1"
 
 [deps]
 RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
