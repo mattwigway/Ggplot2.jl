@@ -1,4 +1,7 @@
 name: CI
+env:
+  # make RCall install R with Conda.jl
+  R_HOME: "*"
 on:
   push:
     branches:
