@@ -1,6 +1,6 @@
 "Wrapper for a GGplot2 plot"
 struct Plot
-    plot::RObject{Any}
+    plot::RObject
 end
 
 """
