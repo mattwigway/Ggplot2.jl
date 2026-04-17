@@ -13,6 +13,16 @@ function find_arg_vector(expr)
     return [last(expr.args)]
 end
 
+"""
+    @ggplot data aes() begin
+        geom_line() +
+        theme_minimal()...
+    end
+
+Create a ggplot. Data should be a Tables.jl compatible table. Specify
+aesthetic mappings in aes(), and then normal ggplot layers/scales/themes/etc
+between begin and end
+"""
 macro ggplot(data, aes, expr)
     # construct the R code
     rcode = IOBuffer()
